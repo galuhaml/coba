@@ -1,0 +1,575 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter';
+}
+
+
+/* ===== WRAPPER ===== */
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    padding: 10px;
+    
+}
+
+/* ===== LOGO ===== */
+.logo a {
+    font-size: 35px;
+    font-weight: 400;
+    float: left;
+    font-family: 'Inter';
+    color: #364f6b;
+}
+
+
+/* ===== NAVBAR ===== */
+.menu {
+    float: right;
+}
+
+.menu b {
+    color: cornflowerblue;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #364f6b;
+}
+
+/* ===== BANNER INDEX===== */
+.banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.banner h1 {
+    font-size: 35px;
+    position:relative;
+    padding: 15%;
+    text-align:left;
+    z-index:auto;
+    color: white;
+    font-family: 'Inter';
+    text-shadow: #364f6b;
+}
+
+.banner h1 a {
+    color: #ffffff;
+}
+
+.banner p {
+    font-size: 35px;
+    position: relative;
+    padding: 15%;
+    text-align: center;
+    z-index: 2;
+    color: black;
+    font-family: 'Inter';
+    text-shadow: #364f6b;
+}
+
+.banner p a {
+    color: #ffffff;
+}
+
+.award h1 {
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    padding: 28px;
+    color: rgb(1, 1, 1);
+    font-family: 'Inter';
+    text-shadow: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+.award img{
+    display: block;
+    padding-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.stik h1 {
+    font-size: 30px;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    color: rgb(1, 1, 1);
+    font-family: 'Inter';
+    text-shadow: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+.stik-text {
+   width: 70%;
+   margin: auto;
+}
+
+.stik p {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    color: rgb(1, 1, 1);
+    font-family: 'Inter';
+    padding-left: 100px;
+    padding-right: 100px;
+    text-shadow: #000000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.stik img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.deskripsi {
+    width: 1150px;
+    padding-left: 69px;
+}
+
+/* ===== H2 DI SCHEDULE,DISCOGRAPHY,MEDIA,NITICE,PROFILE ===== */
+.deskripsi h2 {
+    font-size: 40px;
+    position: relative;
+    display: flex;
+    padding: 30px;
+    color: black;
+    text-shadow: #000000;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid;
+    font-family: 'montserrat';
+    
+}
+
+.deskripsi h2 a {
+    color: #000000;
+}
+
+/* ===== FOOTER ===== */
+#copyright {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding: 20px 0px 20px 0px;
+    margin-top: 10px;
+    margin: auto;
+    color: #000000;
+    font-family: 'Copperplate';
+}
+
+.footer {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.bingkai-home{
+    width: 50%;
+    height: 270px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    grid-gap: 25px;
+}
+
+.bingkai-home img {
+    border-radius: 100px;
+}
+
+.bingkai{
+    width: 30%;
+    height: 270px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 75px;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    grid-gap: 25px;
+
+}
+
+/* ===== PROFILE ===== */
+.profile-1 {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #fff;
+}
+
+.device-1, .device-2 {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #ffffff;
+    color: rgb(16, 16, 16);
+    flex-wrap: wrap;
+    border-bottom: #312e2e 0.5px solid;
+    padding: 35px;
+
+}
+
+
+.dev-img {
+    height: 320px;
+    width: 280px;
+    display: flex;
+    padding-left: 75px;
+    padding-right: 75px;
+
+}
+
+.tv {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+    float: left;
+    display: inline;
+    font-size: 1.4rem;
+}
+
+.tv-img {
+    float: right;
+    order: 1;
+    
+}
+
+.mobile {
+    font-size: 1.4rem;
+    float: right;
+    width: 35%;
+    margin: auto;
+    order: 2;
+}
+
+.mobile-img {
+    float:left;
+    order: 1;
+}
+
+.notice {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+}
+
+
+/* ===== NOTICE ===== */
+.notice h1 {
+    float: left;
+    font-size: 32px;
+    color: #000000;
+    text-shadow: black;
+    padding-right: 50px;
+    position: relative;
+    text-align: left;
+}
+
+.notice p {
+    font-size: 15px;
+    color: #000000;
+}
+
+.des-1 {
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: #c6c6c6 1px solid;
+    padding: 40px;
+}
+
+.des {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+    float: left;
+    display: inline;
+    font-size: 1.4rem;
+    color: black;
+}
+
+
+/* ===== DISCOGRAPHY ===== */
+.container{
+   display: flex;
+   width: 90vw;
+   height: 80%;
+}
+
+.text-discography h1 {
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    color: #364f6b;
+    font-family: 'Inter';
+    justify-content: center;
+    align-items: center;
+}
+
+.text-discography p {
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    color: rgb(1, 1, 1);
+    font-family: 'Inter';
+    text-shadow: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+.video1 {
+   float: center;
+   margin-top: 50px;
+   margin-bottom: 25px;
+   margin-right: 100px;
+   margin-left: 350px;
+}
+
+/* ===== NOTICE ===== */
+.hurt {
+    width: 70%;
+   margin: auto;
+}
+
+.hurt p {
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    padding: 10px;
+    color: rgb(1, 1, 1);
+    font-family: 'Inter';
+    padding-left: 100px;
+    padding-right: 100px;
+    text-shadow: #000000;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.notice-video {
+    float: center;
+    display: flex;
+    margin-top: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+
+
+.deskripsi-notice {
+    width: 850px;
+    padding-left: 205px;
+}
+
+ .deskripsi-notice h2 {
+    font-size: 40px;
+    position: relative;
+    display: flex;
+    padding: 30px;
+    color: black;
+    font-family: 'Inter';
+    text-shadow: #000000;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid;
+    font-display: black;
+ }
+
+.deskripsi h2 a {
+    color: black;
+    
+}
+
+/* ===== MEDIA ===== */
+.deskripsi-media h2 {
+    font-size: 40px;
+    position: relative;
+    display: flex;
+    padding: 30px;
+    color: black;
+    text-shadow: #000000;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    font-family: 'montserrat';
+}
+
+.media-tengah {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -50px;
+}
+
+.media {
+    width: 100%;
+    position: relative;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.media-1 {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.media-1 img {
+    width: 100px;
+    padding-top: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 90%;
+}
+
+.media-1 p {
+    height: 150px;
+    width: 130px;
+    color: #000000;
+    
+}
+
+/* ===== SCHEDULE ===== */
+.jadwal {
+    position: relative;
+    padding: 40px;
+    padding-left: 1000px;
+}
+
+.jadwal-1 {
+    margin: 12PX;
+    padding: 12PX;
+    padding-left: 76px;
+}
+
+.jadwal-1 h1 {
+    float: left;
+    font-size: 32px;
+    color: #000000;
+    text-shadow: black;
+    padding-right: 50px;
+    position: relative;
+    text-align: left;
+}
+
+.jadwal-1 p {
+    font-size: 15px;
+    color: #000000;
+}
+
+.jadwal-1 b {
+    color: #F1BD4A;
+}
+
+.des-2 {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px;
+}
+
+.des2 {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+    float: left;
+    display: inline;
+    font-size: 1.4rem;
+    color: black;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+}
